@@ -1,0 +1,101 @@
+{
+    "box": [
+        {
+            "id": "01",
+            "title": "Wind Turbine Inspection",
+            "desc": "",
+            "imageUrl": "https://cdn.sanity.io/images/mgxz50fq/production/dcdf2d41864e1ec97da5db53ebc6a03265eeb69e-688x387.png",
+            "icon": "camera-reels-fill",
+            "link": [
+                {
+                    "title": "ADS Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "CVPD Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "BVLOS Waiver Announcement from FAA",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "Internal Link 2",
+                    "link": "https://skydio.com"
+                }
+            ],
+            "button": {
+                "text": "Use ROI Calculator",
+                "url": "https://skydio.com"
+            }  
+        },
+        {
+            "id": "02",
+            "title": "Section 2",
+            "desc": "Some short copy here to describe what’s covered in this section.",
+            "imageUrl": "",
+            "icon": "columns-gap",
+            "link": [
+                {
+                    "title": "ADS Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "CVPD Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "BVLOS Waiver Announcement from FAA",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "Internal Link 2",
+                    "link": "https://skydio.com"
+                }
+            ],
+            "button": {
+                "text": ""
+            }  
+        },
+        {
+            "id": "03",
+            "title": "Section 3",
+            "desc": "Some short copy here to describe what’s covered in this section.",
+            "imageUrl": "",
+            "icon": "award",
+            "link": [
+                {
+                    "title": "ADS Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "CVPD Case Study (PDF)",
+                    "link": "https://skydio.com"
+                }
+            ],
+            "button": {
+                "text": ""
+            }  
+        },
+        {
+            "id": "04",
+            "title": "Section 4",
+            "desc": "Some short copy here to describe what’s covered in this section.",
+            "imageUrl": "",
+            "icon": "brush",
+            "link": [
+                {
+                    "title": "ADS Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "Internal Link 2",
+                    "link": "https://skydio.com"
+                }
+            ],
+            "button": {
+                "text": ""
+            }  
+        }
+    ]
+}
