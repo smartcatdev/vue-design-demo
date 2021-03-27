@@ -1,0 +1,31 @@
+{
+    "box": [
+        {
+            "id": "01",
+            "title": "Wind Turbine Inspection",
+            "imageUrl": "https://cdn.sanity.io/images/mgxz50fq/production/dcdf2d41864e1ec97da5db53ebc6a03265eeb69e-688x387.png",
+            "icon": "",
+            "link": [
+                {
+                    "title": "ADS Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "CVPD Case Study (PDF)",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "BVLOS Waiver Announcement from FAA",
+                    "link": "https://skydio.com"
+                },
+                {
+                    "title": "Internal Link 2",
+                    "link": "https://skydio.com"
+                }
+            ],
+            "button": {
+                "text": "Use ROI Calculator"
+            }  
+        }
+    ]
+}
