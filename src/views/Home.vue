@@ -1,30 +1,31 @@
 <template>
     <div>
-      <Card class="animate__animated animate__fadeInUp"
-            header="Header"
-            title="Navigation Title"
+      <Card class="animate__animated animate__fadeIn"
+            :header="this.header"
+            :title="this.title"
             count="4"
       />
-      <Customizer/>
+      <!-- <Customizer/> -->
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue';
 import Card from '@/components/Card.vue';
-import Customizer from '@/components/Customizer.vue';
+
+import { mapState } from 'vuex';
 
 export default {
   name: 'Home',
   components: {
     Card,
-    Customizer,
   },
   data() {
     return {
       boxes: '',
     };
+  },
+  computed: {
+    ...mapState(['header', 'title']),
   },
   async mounted() {
     this.$store.dispatch('fetchBoxes');

@@ -3,7 +3,13 @@
         <h5 id="card-header" v-if="header">{{ header }}</h5>
         <h2 id="card-title" v-if="title">{{ title }}</h2>
         <b-row v-if="this.$store.getters.boxes">
-            <b-col v-for="box in this.$store.getters.boxes.box" :key="box.id">
+            <b-col class="box-wrapper"
+                    sm="12"
+                    :md="calcMediumGrid"
+                    :lg="calcLargeGrid"
+                    v-for="box in boxes.slice(0, numberBoxes)"
+                    :key="box.id"
+            >
                 <Box :title="box.title"
                     :desc="box.desc"
                     :imageUrl="box.imageUrl"
@@ -31,6 +37,34 @@ export default {
 
     };
   },
+  computed: {
+    numberBoxes() {
+      return this.$store.getters.numberBoxes;
+    },
+    boxes() {
+      return this.$store.getters.boxes.box;
+    },
+    calcLargeGrid() {
+      let cols = 12;
+      if (this.numberBoxes === 4) {
+        cols = 3;
+      } else if (this.numberBoxes === 3) {
+        cols = 4;
+      } else if (this.numberBoxes === 2) {
+        cols = 6;
+      }
+      return cols;
+    },
+    calcMediumGrid() {
+      let cols = 12;
+      if (this.numberBoxes === 4 || this.numberBoxes === 2) {
+        cols = 6;
+      } else if (this.numberBoxes === 3) {
+        cols = 12;
+      }
+      return cols;
+    },
+  },
 };
 </script>
 
@@ -51,6 +85,10 @@ export default {
         font-weight: 600;
         margin-bottom: 15px;
         line-height: 100%;
+    }
+
+    .box-wrapper {
+        margin-bottom: 15px;
     }
 
     @media(min-width: 1140px) {
