@@ -4,6 +4,7 @@
         <h2 id="card-title" v-if="title">{{ title }}</h2>
         <b-row v-if="this.$store.getters.boxes">
             <b-col class="box-wrapper"
+                    :class="countClass"
                     sm="12"
                     :md="calcMediumGrid"
                     :lg="calcLargeGrid"
@@ -64,6 +65,9 @@ export default {
       }
       return cols;
     },
+    countClass() {
+      return `count-${this.numberBoxes}`;
+    },
   },
 };
 </script>
@@ -89,6 +93,11 @@ export default {
 
     .box-wrapper {
         margin-bottom: 15px;
+    }
+
+    .col-lg-12.count-1 {
+        max-width: 600px;
+        margin: 0 auto;
     }
 
     @media(min-width: 1140px) {
