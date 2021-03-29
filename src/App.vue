@@ -15,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-  height: 110vh;
+  height: 100%;
 }
 
 #app.dark {
