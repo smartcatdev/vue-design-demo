@@ -31,12 +31,11 @@
                     label="Number of boxes: "
                     label-for="input-number"
                 >
-                    <b-form-input
-                        type="number"
-                        id="input-number"
+
+                    <b-form-select @input="updateNumberBoxes"
                         :value="numberBoxes"
-                        @input="updateNumberBoxes"
-                    ></b-form-input>
+                        :options="selectOptions">
+                    </b-form-select>
                 </b-form-group>
             </b-col>
         </b-row>
@@ -48,6 +47,16 @@ import { mapState } from 'vuex';
 
 export default {
   name: 'Customizer',
+  data() {
+    return {
+      selectOptions: [
+        { value: 1, text: 'One' },
+        { value: 2, text: 'Two' },
+        { value: 3, text: 'Three' },
+        { value: 4, text: 'Four' },
+      ],
+    };
+  },
   computed: {
     ...mapState(['theme', 'title', 'header', 'numberBoxes']),
   },

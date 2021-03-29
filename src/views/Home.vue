@@ -5,7 +5,6 @@
             :title="this.title"
             count="4"
       />
-      <!-- <Customizer/> -->
     </div>
 </template>
 
