@@ -74,9 +74,9 @@ export default {
 
 <style scoped>
     #card-boxes {
-        padding: 30px 30px 15px 30px;
+        padding: 30px 30px 0 30px;
         box-shadow: 0 0px 40px rgb(51 73 90 / 20%);
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     #card-header {
@@ -105,7 +105,7 @@ export default {
     @media(min-width: 1140px) {
 
         #card-boxes {
-            padding: 75px 30px 48px 30px;
+            padding: 75px 30px 30px 30px;
         }
 
         #card-header {

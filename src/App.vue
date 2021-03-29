@@ -16,6 +16,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: #000;
   height: 100%;
+  overflow: auto;
 }
 
 #app.dark {
