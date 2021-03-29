@@ -58,6 +58,7 @@ export default {
         .title {
             font-size: 1.25em;
             margin-bottom: 15px;
+            text-align: center;
         }
         .desc {}
         .icon {
@@ -68,6 +69,7 @@ export default {
             border: 2px solid #000;
             transition: 0.12s all ease-in-out;
             border-radius: 4px;
+            text-align: center;
             a {
                 text-decoration: none;
                 display: block;

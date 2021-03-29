@@ -74,7 +74,7 @@ export default {
 
 <style scoped>
     #card-boxes {
-        padding: 30px;
+        padding: 30px 30px 15px 30px;
         box-shadow: 0 0px 40px rgb(51 73 90 / 20%);
         margin-bottom: 100px;
     }
@@ -83,16 +83,18 @@ export default {
         font-weight: 900;
         color: #979797;
         margin-bottom: 15px;
+        text-align: center;
     }
 
     #card-title {
         font-weight: 600;
         margin-bottom: 15px;
         line-height: 100%;
+        text-align: center;
     }
 
     .box-wrapper {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 
     .col-lg-12.count-1 {

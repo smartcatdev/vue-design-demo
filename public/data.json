@@ -32,7 +32,7 @@
         {
             "id": "02",
             "title": "Section 2",
-            "desc": "Some short copy here to describe what’s covered in this section.",
+            "desc": "Some short copy here to describe what’s covered in this section. Add a bit more text.",
             "imageUrl": "",
             "icon": "columns-gap",
             "link": [
@@ -80,7 +80,7 @@
         {
             "id": "04",
             "title": "Section 4",
-            "desc": "Some short copy here to describe what’s covered in this section.",
+            "desc": "Some short copy here to describe what’s covered in this section. Additional details go here. This section can get long.",
             "imageUrl": "",
             "icon": "brush",
             "link": [
