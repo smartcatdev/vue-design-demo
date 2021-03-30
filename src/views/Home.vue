@@ -3,25 +3,18 @@
       <Card class="animate__animated animate__fadeIn"
             :header="this.header"
             :title="this.title"
-            count="4"
       />
     </div>
 </template>
 
 <script>
 import Card from '@/components/Card.vue';
-
 import { mapState } from 'vuex';
 
 export default {
   name: 'Home',
   components: {
     Card,
-  },
-  data() {
-    return {
-      boxes: '',
-    };
   },
   computed: {
     ...mapState(['header', 'title']),

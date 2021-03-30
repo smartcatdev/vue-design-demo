@@ -33,11 +33,6 @@ export default {
     header: String,
     title: String,
   },
-  data() {
-    return {
-
-    };
-  },
   computed: {
     numberBoxes() {
       return this.$store.getters.numberBoxes;

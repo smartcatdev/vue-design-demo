@@ -11,10 +11,10 @@
 
                 <b-form-group id="input-group-header" label="Header: " label-for="input-header">
                     <b-form-input
-                    id="input-header"
-                    :value="header"
-                    placeholder="Enter header"
-                    @input="updateHeader"
+                        id="input-header"
+                        :value="header"
+                        placeholder="Enter header"
+                        @input="updateHeader"
                     ></b-form-input>
                 </b-form-group>
 
@@ -31,7 +31,6 @@
                     label="Number of boxes: "
                     label-for="input-number"
                 >
-
                     <b-form-select @input="updateNumberBoxes"
                         :value="numberBoxes"
                         :options="selectOptions">
